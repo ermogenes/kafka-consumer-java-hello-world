@@ -54,13 +54,3 @@ while (true) {
     }
 }
 ```
-
-## Test
-
-Start a consumer, like:
-
-```
-bin/kafka-console-consumer.sh --bootstrap-server <you.server.ip.address>:9092 --topic first_topic
-```
-
-Run this app.
